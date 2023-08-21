@@ -1,0 +1,1008 @@
+.head,
+.head * {
+  box-sizing: border-box;
+}
+.head {
+  background: var(--green-800-green, #186318);
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.t1 {
+  color: var(--green-300-green, #8cec89);
+  text-align: center;
+  font: 400 24px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic1,
+.pic1 * {
+  box-sizing: border-box;
+}
+.pic1 {
+  background: var(--green-800-green, #186318);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.moldura {
+  background: var(--white, #ffffff);
+  border-radius: 12px;
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.globo {
+  flex-shrink: 0;
+  width: 215px;
+  height: 166px;
+  position: relative;
+}
+
+.top1,
+.top1 * {
+  box-sizing: border-box;
+}
+.top1 {
+  background: var(--green-800-green, #186318);
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.q1 {
+  text-align: left;
+  font: 400 20px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.qs1 {
+  color: var(--green-50-green, #f1fdf0);
+  font: 400 20px/160% "Aspekta Variable", sans-serif;
+}
+.qs2 {
+  color: var(--green-300-green, #8cec89);
+  font: 400 20px/160% "Aspekta Variable", sans-serif;
+}
+.qs3 {
+  color: var(--green-50-green, #f1fdf0);
+  font: 400 20px/160% "Aspekta Variable", sans-serif;
+}
+
+.q2 {
+  color: var(--green-50-green, #f1fdf0);
+  text-align: left;
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.top2,
+.top2 * {
+  box-sizing: border-box;
+}
+.top2 {
+  background: var(--green-100-green, #dffbdd);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.c1 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 18px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.c2 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.top3,
+.top3 * {
+  box-sizing: border-box;
+}
+.top3 {
+  background: var(--green-100-green, #dffbdd);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.o1 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 18px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  flex: 1;
+  width: 343px;
+}
+
+.o2 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.top4,
+.top4 * {
+  box-sizing: border-box;
+}
+.top4 {
+  background: var(--green-100-green, #dffbdd);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.a1 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 18px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  flex: 1;
+  width: 343px;
+}
+
+.a2 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.pic2,
+.pic2 * {
+  box-sizing: border-box;
+}
+.pic2 {
+  background: var(--green-100-green, #dffbdd);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.mapa {
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 343px;
+  height: 187px;
+  position: relative;
+}
+
+.btop1,
+.btop1 * {
+  box-sizing: border-box;
+}
+.btop1 {
+  background: var(--earls-800-earls, #6c5127);
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.i1 {
+  text-align: left;
+  font: 400 20px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.is1 {
+  color: var(--earls-50-earls, #f9f9ed);
+  font: 400 20px/160% "Aspekta Variable", sans-serif;
+}
+.is2 {
+  color: var(--earls-300-earls, #d7ce6d);
+  font: 400 20px/160% "Aspekta Variable", sans-serif;
+}
+.is3 {
+  color: var(--earls-50-earls, #f9f9ed);
+  font: 400 20px/160% "Aspekta Variable", sans-serif;
+}
+
+.i2 {
+  color: var(--earls-50-earls, #f9f9ed);
+  text-align: left;
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.poluicao {
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 343px;
+  height: 179px;
+  position: relative;
+}
+
+.btop2,
+.btop2 * {
+  box-sizing: border-box;
+}
+.btop2 {
+  background: var(--earls-100-earls, #f2f2cf);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.d1 {
+  color: var(--earls-950-earls, #352513);
+  text-align: left;
+  font: 400 18px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.d2 {
+  color: var(--earls-950-earls, #352513);
+  text-align: left;
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.d3 {
+  text-align: left;
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+
+.ds1 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds2 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds3 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds4 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds5 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds6 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds7 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds8 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds9 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds10 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds11 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds12 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds13 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds14 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds15 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds16 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds17 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.ds18 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta Variable", sans-serif;
+}
+.Ctop1,
+.Ctop1 * {
+  box-sizing: border-box;
+}
+.Ctop1 {
+  background: var(--earls-100-earls, #f2f2cf);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.Ctop2 {
+  color: var(--earls-950-earls, #352513);
+  text-align: left;
+  font: 400 18px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.Ctop3 {
+  color: var(--earls-950-earls, #352513);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.Ctop4 {
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.p1 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p2 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p3 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p4 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p5 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p6 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p7 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p8 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p9 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p10 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p11 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p12 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p13 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p14 {
+  color: var(--earls-600-earls, #a0832e);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.p15 {
+  color: var(--earls-800-earls, #6c5127);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.Dtop1,
+.Dtop1 * {
+  box-sizing: border-box;
+}
+.Dtop1 {
+  background: var(--green-950-red, #062d07);
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.Dtop2 {
+  text-align: left;
+  font: 400 20px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.u1 {
+  color: var(--green-500-green, #27b224);
+  font: 400 20px/160% "Aspekta", sans-serif;
+}
+.u2 {
+  color: var(--green-400-green, #51da4e);
+  font: 400 20px/160% "Aspekta", sans-serif;
+}
+.u3 {
+  color: var(--green-50-green, #f1fdf0);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.pic3,
+.pic3 * {
+  box-sizing: border-box;
+}
+.pic3 {
+  background: var(--green-950-red, #062d07);
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.f1 {
+  border-radius: 12px;
+  flex: 1;
+  height: 457px;
+  position: relative;
+}
+
+.Etop1,
+.Etop1 * {
+  box-sizing: border-box;
+}
+.Etop1 {
+  background: var(--green-200-green, #bff5bd);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.b1 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 18px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.b2 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.Ftop1,
+.Ftop1 * {
+  box-sizing: border-box;
+}
+.Ftop1 {
+  background: var(--green-200-green, #bff5bd);
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ba1 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 18px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.b2 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.pic4,
+.pic4 * {
+  box-sizing: border-box;
+}
+.pic4 {
+  background: var(--green-200-green, #bff5bd);
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.politica-ambiental {
+  border-radius: 12px;
+  flex: 1;
+  height: 228px;
+  position: relative;
+}
+.Gtop1,
+.Gtop1 * {
+  box-sizing: border-box;
+}
+.Gtop1 {
+  background: var(--green-200-green, #bff5bd);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.c1 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 18px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.c2 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.pic5,
+.pic5 * {
+  box-sizing: border-box;
+}
+.pic5 {
+  background: var(--green-200-green, #bff5bd);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.pic-eama {
+  border-radius: 12px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 324px;
+  position: relative;
+}
+.Htop1,
+.Htop1 * {
+  box-sizing: border-box;
+}
+.Htop1 {
+  background: var(--green-200-green, #bff5bd);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.da1 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 18px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.da2 {
+  color: var(--green-950-red, #062d07);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.da3 {
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+}
+.das1 {
+  color: var(--green-950-red, #062d07);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.das2 {
+  color: var(--green-800-green, #186318);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.das3 {
+  color: var(--green-950-red, #062d07);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.das4 {
+  color: var(--green-800-green, #186318);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.das5 {
+  color: var(--green-950-red, #062d07);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.das6 {
+  color: var(--green-800-green, #186318);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.das7 {
+  color: var(--green-950-red, #062d07);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.das8 {
+  color: var(--green-800-green, #186318);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.das9 {
+  color: var(--green-950-red, #062d07);
+  font: 400 16px/160% "Aspekta", sans-serif;
+}
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+.footer {
+  background: var(--green-800-green, #186318);
+  padding: 32px 16px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ta1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ta2 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 20px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ta3 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ta4 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ta5 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 20px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ta6 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ta7 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ta8 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ta9 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tb1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.tb2 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 20px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tb3 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tb4 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tb5 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tb6 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tb7 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tb8 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tb9 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.tc1 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 20px/160% "Aspekta", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tc2 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tc3 {
+  color: var(--green-300-green, #8cec89);
+  text-align: left;
+  font: 400 16px/160% "Aspekta", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
