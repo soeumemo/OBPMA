@@ -831,7 +831,6 @@
   justify-content: flex-start;
 }
 .ta6 {
-  color: var(--green-300-green, #8cec89);
   text-align: left;
   font: 400 16px/160% "Aspekta", sans-serif;
   text-decoration: underline;
@@ -842,7 +841,6 @@
   justify-content: flex-start;
 }
 .ta7 {
-  color: var(--green-300-green, #8cec89);
   text-align: left;
   font: 400 16px/160% "Aspekta", sans-serif;
   text-decoration: underline;
@@ -853,7 +851,6 @@
   justify-content: flex-start;
 }
 .ta8 {
-  color: var(--green-300-green, #8cec89);
   text-align: left;
   font: 400 16px/160% "Aspekta", sans-serif;
   text-decoration: underline;
@@ -864,7 +861,6 @@
   justify-content: flex-start;
 }
 .ta9 {
-  color: var(--green-300-green, #8cec89);
   text-align: left;
   font: 400 16px/160% "Aspekta", sans-serif;
   text-decoration: underline;
@@ -985,7 +981,6 @@
   justify-content: flex-start;
 }
 .tc2 {
-  color: var(--green-300-green, #8cec89);
   text-align: left;
   font: 400 16px/160% "Aspekta", sans-serif;
   text-decoration: underline;
@@ -996,7 +991,6 @@
   justify-content: flex-start;
 }
 .tc3 {
-  color: var(--green-300-green, #8cec89);
   text-align: left;
   font: 400 16px/160% "Aspekta", sans-serif;
   text-decoration: underline;
@@ -1005,4 +999,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+a{
+  text-decoration: none;
 }
